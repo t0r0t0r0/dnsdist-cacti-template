@@ -1,5 +1,8 @@
 cacti template for dnsdist
 ====
+URL : http://dnsdist.org/<br>
+READ This : https://github.com/PowerDNS/pdns/blob/master/pdns/README-dnsdist.md
+
 <br>
 ## Requirement<br>
 OS:CentOS6<br>
