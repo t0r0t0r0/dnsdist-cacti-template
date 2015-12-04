@@ -29,3 +29,6 @@ $ chmod 755 /usr/share/cacti/scripts/dnsdist-stats.sh<br>
 $ /usr/share/cacti/scripts/dnsdist-stats.sh 127.0.0.1 public<br>
 acl_drops:0 latency1_10:1221 block_filter:0 latency10_50:14458 cpu_sys_msec:35487 latency100_1000:5614 cpu_user_msec:18632 latency50_100:2849 downstream_send_errors:0 no_policy:0 downstream_timeouts:0 noncompliant_queries:0 dyn_block_nmg_size:0 queries:211184 dyn_blocked:0 rdqueries:211184 fd_usage:33 real_memory_usage:5869568 latency_avg100:33947.4 responses:211181 latency_avg1000:16503.4 rule_drop:0 latency_avg10000:9813.5 rule_nxdomain:0 latency_avg1000000:1843.4 self_answered:0 latency_slow:13 servfail_responses:0 latency0_1:179358 trunc_failures:0 uptime:6990<br>
 <br>
+
+## Notes
+Don't Use [cacti_graph_template_dnsdist_latency_average.xml]
