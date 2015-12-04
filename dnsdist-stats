@@ -1,0 +1,9 @@
+#!/bin/bash
+###################################################################
+#DNSDIST STATS For CACTI
+#
+#install(CentOS6):
+#cp dnsdist-stats /usr/local/bin/
+#
+###################################################################
+dnsdist -c -e "dumpStats()"|grep -v Connecting|awk '{print $1" "$2"\n"$3" "$4}'|grep -v '^\s*$'|awk '{print $1":"$2" "}'|tr -d '\012'
