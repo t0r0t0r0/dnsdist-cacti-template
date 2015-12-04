@@ -34,4 +34,5 @@ acl_drops:0 latency1_10:1221 block_filter:0 latency10_50:14458 cpu_sys_msec:3548
 <br>
 
 ## Notes
-Don't Use [cacti_graph_template_dnsdist_latency_average.xml]
+
+
