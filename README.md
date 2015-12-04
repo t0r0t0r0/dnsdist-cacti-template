@@ -5,6 +5,7 @@ OS:CentOS6
 Package:cacti-0.8.8b-7.el6.noarch
 
 INSTALL:
+edit snmpd.conf
 ----------------------------------------------------------
 cat snmpd.conf.add >> /etc/snmp/snmpd.conf
 
@@ -13,6 +14,8 @@ cat snmpd.conf.add >> /etc/snmp/snmpd.conf
 [root@dnsdisthost /]# cat /etc/snmp/snmpd.conf|grep dnsdist
 extend .1.3.6.1.4.1.18689.0.2 dnsdist /usr/local/bin/dnsdist-stats
 
+
+copy dnsdist-stats
 ----------------------------------------------------------
 cp dnsdist-stats /usr/local/bin/
 
@@ -21,6 +24,7 @@ cp dnsdist-stats /usr/local/bin/
 [root@dnsdisthost /]# /usr/local/bin/dnsdist-stats
 acl-drops:0 latency1-10:1135 block-filter:0 latency10-50:14263 cpu-sys-msec:34671 latency100-1000:5537 cpu-user-msec:18225 latency50-100:2808 downstream-send-errors:0 no-policy:0 downstream-timeouts:0 noncompliant-queries:0 dyn-block-nmg-size:0 queries:205476 dyn-blocked:0 rdqueries:205476 fd-usage:33 real-memory-usage:5861376 latency-avg100:34656.4 responses:205473 latency-avg1000:29300.9 rule-drop:0 latency-avg10000:12758.9 rule-nxdomain:0 latency-avg1000000:1825.3 self-answered:0 latency-slow:13 servfail-responses:0 latency0-1:174155 trunc-failures:0 uptime:6890
 
+copy dnsdist-stats.sh
 ----------------------------------------------------------
 cp dnsdist-stats.sh /usr/share/cacti/scripts/
 
