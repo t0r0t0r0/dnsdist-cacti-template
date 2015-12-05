@@ -34,5 +34,5 @@ acl_drops:0 latency1_10:1221 block_filter:0 latency10_50:14458 cpu_sys_msec:3548
 <br>
 
 ## Notes
-
+dnsdist -c -e "dumpStats()"の出力結果をグラフ化
 
