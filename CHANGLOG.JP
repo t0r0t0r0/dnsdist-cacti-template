@@ -1,5 +1,5 @@
 2016/01/27
-dnsdist -c -e "dumpStats()"の出力結果に↓が追加されていたので除外処理
+dnsdist -c -e "dumpStats()"の出力結果に↓が追加されていたので「dnsdist-stats」に除外処理追加
 -----------------------------------------------------
 Read configuration from '/etc/dnsdist/dnsdist.conf'
 Script starting
