@@ -5,7 +5,7 @@ Read configuration from '/etc/dnsdist/dnsdist.conf'
 Script starting
 -----------------------------------------------------
 
-dnsdist -c -e "dumpStats()"の出力結果に「empty-queries」が追加されていたのでdata-templateと「cacti_graph_template_dnsdist_response.xml」を修正。
+dnsdist -c -e "dumpStats()"の出力結果に「empty-queries」が追加されていたので「cacti_data_template_dnsdist_stats.xml」と「cacti_graph_template_dnsdist_response.xml」を修正。
 
 2015/12/01
 dnsdist -c -e "dumpStats()"の出力結果をcactiでグラフ化する為に作成
