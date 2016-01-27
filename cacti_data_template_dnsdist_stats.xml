@@ -419,6 +419,20 @@
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700242272c84bde1b6b5efa62039a4cffce1e</data_input_field_id>
 			</hash_08002493715b5424d9c3df5d07b2ba0fb1ffec>
+			<hash_08002457f9b132f7b55d033c2366ab5987de4b>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>empty_queries</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>100000000000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070024b7adf2192ed8c5a224178363006c29fc</data_input_field_id>
+			</hash_08002457f9b132f7b55d033c2366ab5987de4b>
 		</items>
 		<data>
 			<item_000>
@@ -726,6 +740,24 @@
 				<input_output>out</input_output>
 				<data_name>uptime</data_name>
 			</hash_07002414da4c9f6943769a5cc72b5af3dff067>
+			<hash_070024e3c015336aa1f568c8b23f55af4202f3>
+				<name>rdqueries</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>rdqueries</data_name>
+			</hash_070024e3c015336aa1f568c8b23f55af4202f3>
+			<hash_070024b7adf2192ed8c5a224178363006c29fc>
+				<name>empty_queries</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>empty_queries</data_name>
+			</hash_070024b7adf2192ed8c5a224178363006c29fc>
 		</fields>
 	</hash_03002483708c4c08545d70c1aa34c366b27a04>
 	<hash_150024c21df5178e5c955013591239eb0afd46>
