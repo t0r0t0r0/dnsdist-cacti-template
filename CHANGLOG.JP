@@ -1,0 +1,11 @@
+2016/01/27
+dnsdist -c -e "dumpStats()"の出力結果に↓が追加されていたので除外処理
+-----------------------------------------------------
+Read configuration from '/etc/dnsdist/dnsdist.conf'
+Script starting
+-----------------------------------------------------
+
+dnsdist -c -e "dumpStats()"の出力結果に「empty-queries」が追加されていたのでdata-templateとgraph-templateを修正。
+
+2015/12/01
+dnsdist -c -e "dumpStats()"の出力結果をcactiでグラフ化する為に作成
